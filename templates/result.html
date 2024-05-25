@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultados de Clasificación de Imágenes</title>
+</head>
+<body style="font-family: Arial, sans-serif; text-align: center; background-color: #333; color: #fff;">
+    <div style="padding: 20px;">
+        <h1>Resultados de Clasificación</h1>
+        <div style="margin-bottom: 40px; text-align: center;">
+            <h2>Fruta: {{ fruit }}</h2>
+            <img src="data:image/jpeg;base64,{{ image }}" alt="Imagen cargada" style="max-width: 300px; display: block; margin: auto;">
+        </div>
+        <div style="text-align: center;">
+            <h2>Resultados</h2>
+            <ul style="list-style-type: none; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 20px;">
+                {% for prediction in predictions %}
+                <li style="background-color: #444; padding: 10px; border-radius: 5px;">
+                    <strong style="color: #fff;">Modelo:</strong> {{ prediction["Nombre del Modelo"] }}<br>
+                    <strong style="color: #fff;">Resultado de Clasificación:</strong> {{ prediction["Resultado de la clasificación"] }}<br>
+                    <strong style="color: #fff;">Probabilidad:</strong> {{ prediction["Probabilidad del resultado"] }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
