@@ -1,6 +1,6 @@
-# **Proyecto Clasificador de Frutas**
+# **Modelo de Detección de Frutas Frescas con Red Neuronal Convolucional VGG16**
 
-Este proyecto es un clasificador de imágenes de frutas utilizando modelos de aprendizaje automático. Puedes lanzar y ejecutar fácilmente este proyecto utilizando Docker.
+Este proyecto es un modelo de clasificación de imágenes de frutas utilizando modelos de aprendizaje automático. Puedes lanzar y ejecutar fácilmente este proyecto utilizando Docker.
 
 ## Instrucciones de cómo lanzar el proyecto con Docker
 
