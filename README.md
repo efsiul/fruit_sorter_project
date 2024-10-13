@@ -1,4 +1,7 @@
+# **Fresh Fruit Detection Model with VGG16 Convolutional Neural Network**
 # **Modelo de Detección de Frutas Frescas con Red Neuronal Convolucional VGG16**
+
+This project is a fruit image classification model using machine learning models. You can easily launch and run this project using Docker.
 
 Este proyecto es un modelo de clasificación de imágenes de frutas utilizando modelos de aprendizaje automático. Puedes lanzar y ejecutar fácilmente este proyecto utilizando Docker.
 
