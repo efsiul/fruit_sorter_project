@@ -51,6 +51,18 @@ El proyecto está estructurado de la siguiente manera:
 * **requirements.txt**: Archivo que especifica las dependencias del proyecto.
 
 ---
+## Models information
+
+The project uses the following machine learning models for fruit classification:
+
+1. **DenseNet121:** Deep convolutional neural network model used for image classification tasks.
+2. **InceptionV3:** Convolutional neural network architecture designed for image recognition.
+3. **MobileNet:** Lightweight convolutional neural network architecture designed for use on mobile devices and resource-constrained systems.
+4. **ResNet50:** Deep convolutional neural network model that has demonstrated exceptional performance on image classification tasks.
+5. **VGG16:** Convolutional neural network model developed by the Visual Geometry Group at the University of Oxford, widely used in image classification tasks.
+
+These models are pre-trained on image datasets and are used to predict fruit classes in the input images.
+
 
 ## Información de los modelos
 
